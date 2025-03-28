@@ -46,7 +46,7 @@ const (
 	defaultVirtualServiceCIDR    = "10.53.0.0/16"
 	defaultSharedClusterCIDR     = "10.42.0.0/16"
 	defaultSharedServiceCIDR     = "10.43.0.0/16"
-	defaultStoragePersistentSize = "1G"
+	defaultStoragePersistentSize = "10G"
 	memberRemovalTimeout         = time.Minute * 1
 )
 

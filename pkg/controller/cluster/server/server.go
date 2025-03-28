@@ -343,6 +343,7 @@ func (s *Server) StatefulServer(ctx context.Context) (*apps.StatefulSet, error) 
 		ss.Spec.VolumeClaimTemplates = []v1.PersistentVolumeClaim{pvClaim}
 	}
 
+	ss.Spec.PodManagementPolicy = apps.ParallelPodManagement
 	return ss, nil
 }
 
