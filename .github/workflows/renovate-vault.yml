@@ -42,8 +42,6 @@ on:
         default: "github>rancher/renovate-config#release"
         type: string
 
-  schedule:
-    - cron: '30 4,6 * * 1-5'
 
 permissions:
   contents: read

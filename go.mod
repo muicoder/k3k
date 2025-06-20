@@ -203,7 +203,7 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
-	k8s.io/controller-manager v0.35.1 // indirect
+	k8s.io/controller-manager v0.35.3 // indirect
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kms v0.35.3 // indirect
 	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912 // indirect
