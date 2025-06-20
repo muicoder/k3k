@@ -22,20 +22,20 @@ require (
 	github.com/testcontainers/testcontainers-go/modules/k3s v0.35.0
 	github.com/urfave/cli/v2 v2.27.5
 	github.com/virtual-kubelet/virtual-kubelet v1.11.0
-	go.etcd.io/etcd/api/v3 v3.5.16
-	go.etcd.io/etcd/client/v3 v3.5.16
+	go.etcd.io/etcd/api/v3 v3.5.21
+	go.etcd.io/etcd/client/v3 v3.5.21
 	go.uber.org/zap v1.27.0
 	gopkg.in/yaml.v2 v2.4.0
 	helm.sh/helm/v3 v3.14.4
-	k8s.io/api v0.29.11
-	k8s.io/apiextensions-apiserver v0.29.11
-	k8s.io/apimachinery v0.29.11
-	k8s.io/apiserver v0.29.11
-	k8s.io/cli-runtime v0.29.11
-	k8s.io/client-go v0.29.11
-	k8s.io/component-base v0.29.11
-	k8s.io/component-helpers v0.29.11
-	k8s.io/kubectl v0.29.11
+	k8s.io/api v0.29.15
+	k8s.io/apiextensions-apiserver v0.29.15
+	k8s.io/apimachinery v0.29.15
+	k8s.io/apiserver v0.29.15
+	k8s.io/cli-runtime v0.29.15
+	k8s.io/client-go v0.29.15
+	k8s.io/component-base v0.29.15
+	k8s.io/component-helpers v0.29.15
+	k8s.io/kubectl v0.29.15
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 	sigs.k8s.io/controller-runtime v0.17.5
 )
@@ -174,7 +174,7 @@ require (
 	github.com/xlab/treeprint v1.2.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20240521201337-686a1a2994c1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.5.16 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.5.21 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.53.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0 // indirect
@@ -206,7 +206,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
-	k8s.io/kms v0.29.11 // indirect
+	k8s.io/kms v0.29.15 // indirect
 	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f // indirect
 	oras.land/oras-go v1.2.5 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.0 // indirect
