@@ -34,7 +34,6 @@ builds:
     goarch:
       - "amd64"
       - "arm64"
-      - "s390x"
     ldflags:
       - -w -s # strip debug info and symbol table
       - -X "github.com/rancher/k3k/pkg/buildinfo.Version={{ .Tag }}"

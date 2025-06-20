@@ -2,7 +2,6 @@ name: Conformance Tests - Virtual Mode
 
 on:
   schedule:
-    - cron: "0 1 * * *"
   workflow_dispatch:
 
 permissions:
