@@ -25,8 +25,8 @@ require (
 	github.com/testcontainers/testcontainers-go v0.35.0
 	github.com/testcontainers/testcontainers-go/modules/k3s v0.35.0
 	github.com/virtual-kubelet/virtual-kubelet v1.11.1-0.20250530103808-c9f64e872803
-	go.etcd.io/etcd/api/v3 v3.5.16
-	go.etcd.io/etcd/client/v3 v3.5.16
+	go.etcd.io/etcd/api/v3 v3.5.25
+	go.etcd.io/etcd/client/v3 v3.5.25
 	go.uber.org/zap v1.27.0
 	gopkg.in/yaml.v2 v2.4.0
 	helm.sh/helm/v3 v3.14.4
@@ -183,7 +183,7 @@ require (
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
 	github.com/xlab/treeprint v1.2.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.5.16 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.5.25 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.54.0 // indirect
