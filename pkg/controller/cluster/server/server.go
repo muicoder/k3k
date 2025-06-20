@@ -90,31 +90,31 @@ func (s *Server) podSpec(image, name string, persistent bool, startupCmd string)
 			{
 				Name: "run",
 				VolumeSource: v1.VolumeSource{
-					EmptyDir: &v1.EmptyDirVolumeSource{},
+					EmptyDir: &v1.EmptyDirVolumeSource{Medium: v1.StorageMediumMemory},
 				},
 			},
 			{
 				Name: "varrun",
 				VolumeSource: v1.VolumeSource{
-					EmptyDir: &v1.EmptyDirVolumeSource{},
+					EmptyDir: &v1.EmptyDirVolumeSource{Medium: v1.StorageMediumMemory},
 				},
 			},
 			{
 				Name: "varlibcni",
 				VolumeSource: v1.VolumeSource{
-					EmptyDir: &v1.EmptyDirVolumeSource{},
+					EmptyDir: &v1.EmptyDirVolumeSource{Medium: v1.StorageMediumMemory},
 				},
 			},
 			{
 				Name: "varlog",
 				VolumeSource: v1.VolumeSource{
-					EmptyDir: &v1.EmptyDirVolumeSource{},
+					EmptyDir: &v1.EmptyDirVolumeSource{Medium: v1.StorageMediumMemory},
 				},
 			},
 			{
 				Name: "varlibkubelet",
 				VolumeSource: v1.VolumeSource{
-					EmptyDir: &v1.EmptyDirVolumeSource{},
+					EmptyDir: &v1.EmptyDirVolumeSource{Medium: v1.StorageMediumMemory},
 				},
 			},
 		},
