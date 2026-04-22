@@ -1,0 +1,41 @@
+---
+apiVersion: k3k.io/v1alpha1
+kind: Cluster
+metadata:
+  name: shared
+spec:
+  agentArgs:
+    - --disable-apiserver-lb=true
+  clusterCIDR: 172.26.0.0/17
+  clusterDNS: 172.26.128.10
+  mode: shared # virtual
+  persistence:
+    type: ephemeral # dynamic
+  serverArgs:
+    - --disable-cloud-controller
+    - --disable=coredns,runtimes
+    - --disable-network-policy
+    - --flannel-backend=host-gw
+  serviceCIDR: 172.26.128.0/18
+  version: v1.26.15
+---
+apiVersion: k3k.io/v1alpha1
+kind: Cluster
+metadata:
+  name: virtual
+spec:
+  agentArgs:
+    - --disable-apiserver-lb=true
+  agents: 2
+  clusterCIDR: 172.29.0.0/17
+  clusterDNS: 172.29.128.10
+  mode: virtual # shared
+  persistence:
+    type: ephemeral # dynamic
+  serverArgs:
+    - --disable-cloud-controller
+    - --disable=coredns,servicelb,traefik,local-storage,metrics-server,runtimes
+    - --disable-network-policy
+    - --flannel-backend=host-gw
+  serviceCIDR: 172.29.128.0/18
+  version: v1.29.15

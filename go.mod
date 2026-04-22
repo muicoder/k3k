@@ -24,7 +24,7 @@ require (
 	go.etcd.io/etcd/client/v3 v3.6.10
 	go.uber.org/zap v1.27.1
 	gopkg.in/yaml.v2 v2.4.0
-	helm.sh/helm/v3 v3.18.5
+	helm.sh/helm/v3 v3.18.6 // filepath-securejoin
 	k8s.io/api v0.33.7
 	k8s.io/apiextensions-apiserver v0.33.7
 	k8s.io/apimachinery v0.33.7
@@ -67,7 +67,7 @@ require (
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/cpuguy83/dockercfg v0.3.2 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.6 // indirect
-	github.com/cyphar/filepath-securejoin v0.5.1 // indirect
+	github.com/cyphar/filepath-securejoin v0.5.2 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/distribution/reference v0.6.0 // indirect
 	github.com/docker/docker v28.5.2+incompatible // indirect
